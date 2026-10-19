@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   /* nav section */
+nav{
+    padding: 20px 8% ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: cadetblue;
+
+}
+body{
+    /* background-color:darkgray; */
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+     justify-content:center; 
+    align-items: center;
+     gap: 20px;
+    display: flex;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+.menu1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn{
+ background-color: cornflowerblue;
+ color:aliceblue;
+ border-radius: 7px;
+ border: none;
+ padding: 12px 20px;
+ cursor: pointer;
+
+}
+
+/* banner section */
+.banner{
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 8%;
+    background-color: beige;
+    display: flex;
+    gap: 50px;
+}
+.hero h4{
+    font-size: 20px;
+}
+.hero h2{
+    font-size: 50px;
+    line-height: 1. 15;
+    margin: 1px 0;
+}
+.hro p{
+    line-height: 1.7;
+    max-width: 420px;
+}
+ .hero-image{
+    display:flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: auto; */
+    max-width: 100%;
+    height: auto;
+    
+}
+.hero-image img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+.hero-image p{
+    justify-content: flex-start;
+}
